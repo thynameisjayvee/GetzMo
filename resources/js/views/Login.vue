@@ -21,6 +21,7 @@
               <div class="card-body mr-3 ml-3">
                 <h5 class="card-title text-center pt-3 pb-3" style="color:white;">Sign in to GetzMo</h5>
                 <form>
+                  <fieldset>
                     <div class="input-group">
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -30,7 +31,7 @@
                     <small style="color:white">We'll never share your email with anyone else.</small>
                     <div class="input-group">
                       <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fas fa-lock"></i></i></span>
+                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
                       </div>
                       <input type="password" class="form-control" placeholder="Password">
                     </div>
@@ -46,7 +47,7 @@
                 </div>
                 <hr>
                 <div class="text-center">
-                  <a href="#" style="color:cyan;">Don't have an account yet? Register here</a>
+                  <router-link :to="{ name: 'register', params: {} }" style="color:cyan;">Don't have an account yet? Register here</router-link>
                 </div>
               </div>
             </div>

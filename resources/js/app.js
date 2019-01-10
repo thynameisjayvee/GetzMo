@@ -19,6 +19,7 @@ Vue.use(BootstrapVue)
 import App from './views/App'
 import Top from './views/Top'
 import Login from './views/Login'
+import Register from './views/Register'
 
 const router = new VueRouter({
   mode: 'history',
@@ -32,6 +33,11 @@ const router = new VueRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     }
   ]
 });
