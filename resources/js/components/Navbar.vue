@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md" class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">GetzMo</a>
+    <router-link :to="{ name: 'top', params: {} }" class="navbar-brand">GetzMo</router-link>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
       <!-- left nav items -->
@@ -19,7 +19,7 @@
           <b-dropdown-item href="#">Buy</b-dropdown-item>
           <b-dropdown-item href="#">Swap</b-dropdown-item>
         </b-nav-item-dropdown>
-        <a href="#" class="nav-link">Login</a>
+        <router-link :to="{ name: 'login', params: {} }" class="nav-link">Login</router-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

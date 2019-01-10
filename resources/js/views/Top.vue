@@ -63,22 +63,22 @@
           <hr>
           <div class="row">
             <div class="col-md-3">
-              <div class="card m-5">
+              <div class="card m-5" id="serviceIcon-bg-color">
                 <img class="card-img-top p-3" src="../../../public/serviceIcons/sellCar.png" alt="">
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card m-5">
+              <div class="card m-5" id="serviceIcon-bg-color">
                 <img class="card-img-top p-3" src="../../../public/serviceIcons/cash.png" alt="">
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card m-5">
+              <div class="card m-5" id="serviceIcon-bg-color">
                 <img class="card-img-top p-3" src="../../../public/serviceIcons/deal1.png" alt="">
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card m-5">
+              <div class="card m-5" id="serviceIcon-bg-color">
                 <img class="card-img-top p-3" src="../../../public/serviceIcons/car1.png" alt="">
               </div>
             </div>
@@ -111,7 +111,7 @@ export default {
 }
 
 #serviceIcon-bg-color{
-  background-color: blue;
+  background-color: #d2d2d2;
 }
 #serviceIcon-size{
   width: 256px;
