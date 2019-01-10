@@ -1913,6 +1913,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -22218,7 +22256,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#top-background-img[data-v-bae950f4]{\n  background-image: url(" + escape(__webpack_require__(/*! ../../../public/getzMoBG.jpg */ "./public/getzMoBG.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n}\n#col-position[data-v-bae950f4]{\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n", ""]);
+exports.push([module.i, "\n#top-background-img[data-v-bae950f4]{\n  background-image: url(" + escape(__webpack_require__(/*! ../../../public/getzMoBG.jpg */ "./public/getzMoBG.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n}\n#col-position[data-v-bae950f4]{\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n#serviceIcon-bg-color[data-v-bae950f4]{\n  background-color: blue;\n}\n#serviceIcon-size[data-v-bae950f4]{\n  width: 256px;\n}\n", ""]);
 
 // exports
 
@@ -55301,94 +55339,185 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "container-fluid", attrs: { id: "top-background-img" } },
-      [
-        _c("div", { staticClass: "row justify-content-center" }, [
-          _c(
-            "div",
-            { staticClass: "col-lg-5", attrs: { id: "col-position" } },
-            [
-              _c("div", { staticClass: "card bg-dark" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "h5",
-                    {
-                      staticClass: "card-title",
-                      staticStyle: { color: "white" }
-                    },
-                    [_vm._v("Search Car")]
-                  ),
-                  _vm._v(" "),
-                  _c("hr", { staticStyle: { "border-color": "gray" } }),
-                  _vm._v(" "),
-                  _c("form", [
-                    _c("fieldset", { staticClass: "form-group" }, [
-                      _c("div", { staticClass: "row" }, [
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("select", { staticClass: "form-control" }, [
-                            _c("option", [_vm._v("Any Brand")])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("select", { staticClass: "form-control" }, [
-                            _c("option", [_vm._v("Any Model")])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("select", { staticClass: "form-control" }, [
-                            _c("option", [_vm._v("Any Color")])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("fieldset", { staticClass: "form-group" }, [
-                      _c("div", { staticClass: "row" }, [
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("select", { staticClass: "form-control" }, [
-                            _c("option", [_vm._v("City")])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("select", { staticClass: "form-control" }, [
-                            _c("option", [_vm._v("Province")])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-4" }, [
-                          _c("input", {
-                            staticClass: "form-control",
-                            attrs: { type: "text", placeholder: "Zip Code" }
-                          })
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
+    return _c("div", [
+      _c(
+        "div",
+        { staticClass: "container-fluid", attrs: { id: "top-background-img" } },
+        [
+          _c("div", { staticClass: "row justify-content-center pb-5" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-5", attrs: { id: "col-position" } },
+              [
+                _c("div", { staticClass: "card bg-dark" }, [
+                  _c("div", { staticClass: "card-body" }, [
                     _c(
-                      "button",
+                      "h5",
                       {
-                        staticClass: "btn btn-primary",
-                        attrs: { type: "submit" }
+                        staticClass: "card-title",
+                        staticStyle: { color: "white" }
                       },
-                      [_vm._v("Search")]
-                    )
+                      [_vm._v("Search Car")]
+                    ),
+                    _vm._v(" "),
+                    _c("hr", { staticStyle: { "border-color": "gray" } }),
+                    _vm._v(" "),
+                    _c("form", [
+                      _c("fieldset", { staticClass: "form-group" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("select", { staticClass: "form-control" }, [
+                              _c("option", [_vm._v("Any Brand")])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("select", { staticClass: "form-control" }, [
+                              _c("option", [_vm._v("Any Model")])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("select", { staticClass: "form-control" }, [
+                              _c("option", [_vm._v("Any Color")])
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("fieldset", { staticClass: "form-group" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("select", { staticClass: "form-control" }, [
+                              _c("option", [_vm._v("City")])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("select", { staticClass: "form-control" }, [
+                              _c("option", [_vm._v("Province")])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-lg-4 pb-1" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: { type: "text", placeholder: "Zip Code" }
+                            })
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { type: "submit" }
+                        },
+                        [_vm._v("Search")]
+                      )
+                    ])
                   ])
                 ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-1" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "container-fluid mt-3" }, [
+        _c("div", { staticClass: "row justify-content-center" }, [
+          _c("div", { staticClass: "col-lg-10" }, [
+            _c("h4", [_vm._v("Service Panels")]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-3" }, [
+                _c("div", { staticClass: "card m-5" }, [
+                  _c("img", {
+                    staticClass: "card-img-top p-3",
+                    attrs: {
+                      src: __webpack_require__(/*! ../../../public/serviceIcons/sellCar.png */ "./public/serviceIcons/sellCar.png"),
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-3" }, [
+                _c("div", { staticClass: "card m-5" }, [
+                  _c("img", {
+                    staticClass: "card-img-top p-3",
+                    attrs: {
+                      src: __webpack_require__(/*! ../../../public/serviceIcons/cash.png */ "./public/serviceIcons/cash.png"),
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-3" }, [
+                _c("div", { staticClass: "card m-5" }, [
+                  _c("img", {
+                    staticClass: "card-img-top p-3",
+                    attrs: {
+                      src: __webpack_require__(/*! ../../../public/serviceIcons/deal1.png */ "./public/serviceIcons/deal1.png"),
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-3" }, [
+                _c("div", { staticClass: "card m-5" }, [
+                  _c("img", {
+                    staticClass: "card-img-top p-3",
+                    attrs: {
+                      src: __webpack_require__(/*! ../../../public/serviceIcons/car1.png */ "./public/serviceIcons/car1.png"),
+                      alt: ""
+                    }
+                  })
+                ])
               ])
-            ]
-          ),
+            ])
+          ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-lg-1" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4" })
+          _c("div", { staticClass: "mt-2" }, [
+            _vm._v("\n           Icons made by "),
+            _c(
+              "a",
+              { attrs: { href: "https://www.freepik.com/", title: "Freepik" } },
+              [_vm._v("Freepik")]
+            ),
+            _vm._v("\n           from "),
+            _c(
+              "a",
+              {
+                attrs: { href: "https://www.flaticon.com/", title: "Flaticon" }
+              },
+              [_vm._v("www.flaticon.com")]
+            ),
+            _vm._v("\n           is licensed by "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "http://creativecommons.org/licenses/by/3.0/",
+                  title: "Creative Commons BY 3.0",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("CC 3.0 BY")]
+            )
+          ])
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -69298,6 +69427,50 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = "/images/getzMoBG.jpg?49824cc44b94afeccf8113c03869ad51";
+
+/***/ }),
+
+/***/ "./public/serviceIcons/car1.png":
+/*!**************************************!*\
+  !*** ./public/serviceIcons/car1.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/car1.png?b49174cc57f9e95691460d629ca54894";
+
+/***/ }),
+
+/***/ "./public/serviceIcons/cash.png":
+/*!**************************************!*\
+  !*** ./public/serviceIcons/cash.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/cash.png?934c3368d1e7174e349a0ba1c7c1692c";
+
+/***/ }),
+
+/***/ "./public/serviceIcons/deal1.png":
+/*!***************************************!*\
+  !*** ./public/serviceIcons/deal1.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/deal1.png?2334e8c3fe712acfe06a660d7da599c5";
+
+/***/ }),
+
+/***/ "./public/serviceIcons/sellCar.png":
+/*!*****************************************!*\
+  !*** ./public/serviceIcons/sellCar.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/sellCar.png?bc4cf51e90eeb1c243110f99d3f1e6eb";
 
 /***/ }),
 
