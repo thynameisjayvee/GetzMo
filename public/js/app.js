@@ -2051,8 +2051,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -22485,7 +22483,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* @import 'https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css'; */\n.bg-height[data-v-3563ad7c]{\n  height: 180px;\n}\n.border-settings[data-v-3563ad7c]{\n  /* border: 2px solid; */\n  border-radius: 1rem;\n  background-color: #DADAD4;\n}\n.legend-border[data-v-3563ad7c]{\n  /* width:inherit; /* Or auto */\n  /* padding:0 10px; /* To give a bit of padding on the left and right */\n  /* border-bottom:none; */\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* @import 'https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css'; */\n.bg-height[data-v-3563ad7c]{\n  height: 180px;\n}\n.border-settings[data-v-3563ad7c]{\n  /* border: 2px solid; */\n  border-radius: 1rem;\n  background-color: #DADAD4;\n}\n.legend-border[data-v-3563ad7c]{\n  /* width:inherit; /* Or auto */\n  /* padding:0 10px; /* To give a bit of padding on the left and right */\n  /* border-bottom:none; */\n}\n", ""]);
 
 // exports
 
@@ -57132,19 +57130,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-6", attrs: { align: "right" } }, [
+    return _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-6", attrs: { align: "center" } }, [
         _c(
           "button",
-          { staticClass: "btn btn-primary px-5", attrs: { type: "button" } },
+          { staticClass: "btn btn-primary mb-1", attrs: { type: "button" } },
           [_vm._v("Register")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-6", attrs: { align: "left" } }, [
+        ),
+        _vm._v(" "),
         _c(
           "button",
-          { staticClass: "btn btn-danger px-5", attrs: { type: "button" } },
+          { staticClass: "btn btn-danger mb-1", attrs: { type: "button" } },
           [_vm._v("Clear")]
         )
       ])

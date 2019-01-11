@@ -93,12 +93,10 @@
                   </div>
                  </div>
                  <!-- end of form 4 -->
-                 <div class="row">
-                   <div class="col-md-6" align="right">
-                     <button type="button" class="btn btn-primary px-5">Register</button>
-                   </div>
-                   <div class="col-md-6" align="left">
-                     <button type="button" class="btn btn-danger px-5">Clear</button>
+                 <div class="row justify-content-center">
+                   <div class="col-md-6" align="center">
+                     <button type="button" class="btn btn-primary mb-1">Register</button>
+                     <button type="button" class="btn btn-danger mb-1">Clear</button>
                    </div>
                  </div>
                  <div class="row justify-content-center mt-4">
