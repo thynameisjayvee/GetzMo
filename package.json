@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.0.0-rc.11",
+        "datepicker-bootstrap": "^1.9.11",
         "vue-cookies": "^1.5.12",
         "vue-router": "^3.0.2",
         "vue-template-compiler": "^2.5.21"

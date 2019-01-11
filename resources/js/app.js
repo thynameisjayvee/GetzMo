@@ -15,6 +15,7 @@ import BootstrapVue from 'bootstrap-vue'
 Vue.use(VueRouter)
 Vue.use(VueCookies)
 Vue.use(BootstrapVue)
+// Vue.use(Datepicker)
 
 import App from './views/App'
 import Top from './views/Top'
