@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid mt-5">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-3">
           <div class="col-lg-5 pt-2">
             <div class="card bg-transparent" style="border: 3px solid; border-color:#6cb2eb;">
               <div class="card-body">
@@ -52,11 +52,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="mt-2">
-             Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a>
-             from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
         </div>
     </div>
   </div>

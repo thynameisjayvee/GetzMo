@@ -21,6 +21,7 @@ import App from './views/App'
 import Top from './views/Top'
 import Login from './views/Login'
 import Register from './views/Register'
+import Profile from './views/Profile'
 
 const router = new VueRouter({
   mode: 'history',
@@ -39,6 +40,11 @@ const router = new VueRouter({
       path: '/register',
       name: 'register',
       component: Register
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: Profile
     }
   ]
 });

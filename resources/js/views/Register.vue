@@ -1,10 +1,13 @@
 <template>
   <div>
-    <div class="container-fluid bg-info bg-height">
+    <div id="header-bg">
+
+    </div>
+    <div class="container-fluid this-position">
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <form>
-            <fieldset class="border-settings mt-5 p-4">
+            <fieldset class="border-settings mt-5 p-4 mb-3">
               <legend class="legend-border mb-4" align="center">
                  <img src="../../../public/registerIcons/clipboard1.png" alt="">
               </legend>
@@ -108,11 +111,6 @@
           </form>
         </div>
       </div>
-      <div class="mt-2">
-           Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a>
-           from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-           is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-      </div>
     </div>
   </div>
 </template>
@@ -124,7 +122,12 @@ export default {
 
 <style scoped>
 /* @import 'https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css'; */
-.bg-height{
+.this-position{
+  margin-top: -180px;
+}
+#header-bg{
+  background-image: linear-gradient(#6cb2eb, #f8f9fa);
+  background-size: contain;
   height: 180px;
 }
 .border-settings{
@@ -137,4 +140,5 @@ export default {
   /* padding:0 10px; /* To give a bit of padding on the left and right */
   /* border-bottom:none; */
 }
+
 </style>

@@ -7,7 +7,8 @@
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
-        <a href="#" class="nav-link">Home</a>
+        <router-link :to="{ name: 'top', params: {} }" class="nav-link">Home</router-link>
+        <router-link :to="{ name: 'profile', params: {} }" class="nav-link">Profile</router-link>
         <a href="#" class="nav-link">About Us</a>
         <a href="#" class="nav-link">FAQs</a>
         <b-nav-item-dropdown right>
