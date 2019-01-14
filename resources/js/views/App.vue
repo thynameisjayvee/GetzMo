@@ -3,7 +3,7 @@
       <header></header>
       <appnavbar/>
       <main role="main">
-        <appview/>
+        <router-view/>
       </main>
       <footer class="footer-custom">
         <div class="container-fluid">

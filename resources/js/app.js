@@ -11,7 +11,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueCookies from 'vue-cookies'
 import BootstrapVue from 'bootstrap-vue'
+import Bootstrap from 'bootstrap'
 
+// Vue.use(Bootstrap)
 Vue.use(VueRouter)
 Vue.use(VueCookies)
 Vue.use(BootstrapVue)
