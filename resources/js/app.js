@@ -24,6 +24,13 @@ import Top from './views/Top'
 import Login from './views/Login'
 import Register from './views/Register'
 import Profile from './views/Profile'
+import Post_Tab from './views/Post_Tab'
+import Message_Tab from './views/Message_Tab'
+import Deal_Tab from './views/Deal_Tab'
+import Garage_Tab from './views/Garage_Tab'
+import Update_Profile_Tab from './views/Update_Profile_Tab'
+
+
 
 const router = new VueRouter({
   mode: 'history',
@@ -46,8 +53,36 @@ const router = new VueRouter({
     {
       path: '/profile',
       name: 'profile',
-      component: Profile
-    }
+      redirect: '/profile/posts',
+      component: Profile,
+      children: [
+        {
+          path: '/profile/posts',
+          name: 'profile_post',
+          component: Post_Tab
+        },
+        {
+          path: '/profile/messages',
+          name: 'profile_message',
+          component: Message_Tab
+        },
+        {
+          path: '/profile/deals',
+          name: 'profile_deal',
+          component: Deal_Tab
+        },
+        {
+          path: '/profile/garage',
+          name: 'profile_garage',
+          component: Garage_Tab
+        },
+        {
+          path: '/profile/profile_update',
+          name: 'profile_update',
+          component: Update_Profile_Tab
+        }
+      ]
+    },
   ]
 });
 
