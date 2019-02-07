@@ -201,6 +201,7 @@
 .sms-wrap{
     word-wrap: break-word;
     background-color: #dadad4;
+    box-shadow: 0px 0px 5px 0px red;
 }
 .sms-group{
     max-height: 240px;

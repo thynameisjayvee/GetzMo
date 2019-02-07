@@ -11,33 +11,53 @@
                 <fieldset class="form-group">
                   <div class="row">
                     <div class="col-lg-4 pb-1">
-                      <select class="form-control">
+                      <input type="text" class="form-control" list="brand_list" placeholder="Any Brand">
+                      <datalist id="brand_list">
                         <option>Any Brand</option>
-                      </select>
+                      </datalist>
+                      <!-- <select class="form-control">
+                        <option>Any Brand</option>
+                      </select> -->
                     </div>
                     <div class="col-lg-4 pb-1">
-                      <select class="form-control">
+                      <input type="text" class="form-control" list="model_list" placeholder="Any Model">
+                      <datalist id="model_list">
                         <option>Any Model</option>
-                      </select>
+                      </datalist>
+                      <!-- <select class="form-control">
+                        <option>Any Model</option>
+                      </select> -->
                     </div>
                     <div class="col-lg-4 pb-1">
-                      <select class="form-control">
+                      <input type="text" class="form-control" list="color_list" placeholder="Any Color">
+                      <datalist id="color_list">
                         <option>Any Color</option>
-                      </select>
+                      </datalist>
+                      <!-- <select class="form-control">
+                        <option>Any Color</option>
+                      </select> -->
                     </div>
                   </div>
                 </fieldset>
                 <fieldset class="form-group">
                   <div class="row">
                     <div class="col-lg-4 pb-1">
-                      <select class="form-control">
+                      <input type="text" class="form-control" list="city_list" placeholder="Any City">
+                      <datalist id="city_list">
+                        <option>Any City</option>
+                      </datalist>
+                      <!-- <select class="form-control">
                         <option>City</option>
-                      </select>
+                      </select> -->
                     </div>
                     <div class="col-lg-4 pb-1">
-                      <select class="form-control">
+                      <input type="text" class="form-control" list="province_list" placeholder="Any Province">
+                      <datalist id="province_list">
+                        <option>Any Province</option>
+                      </datalist>
+                      <!-- <select class="form-control">
                         <option>Province</option>
-                      </select>
+                      </select> -->
                     </div>
                     <div class="col-lg-4 pb-1">
                       <input type="text" class="form-control" placeholder="Zip Code">

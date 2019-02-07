@@ -16,7 +16,7 @@
           <template slot="button-content">
             Trade
           </template>
-          <b-dropdown-item href="#">Sell</b-dropdown-item>
+          <b-dropdown-item><router-link :to="{ name: 'trade_sell', params: {} }">Sell</router-link></b-dropdown-item>
           <b-dropdown-item href="#">Buy</b-dropdown-item>
           <b-dropdown-item href="#">Swap</b-dropdown-item>
         </b-nav-item-dropdown>

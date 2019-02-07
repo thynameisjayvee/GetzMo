@@ -23,6 +23,7 @@ import App from './views/App'
 import Top from './views/Top'
 import Login from './views/Login'
 import Register from './views/Register'
+
 import Profile from './views/Profile'
 import Post_Tab from './views/Post_Tab'
 import Message_Tab from './views/Message_Tab'
@@ -30,6 +31,7 @@ import Deal_Tab from './views/Deal_Tab'
 import Garage_Tab from './views/Garage_Tab'
 import Update_Profile_Tab from './views/Update_Profile_Tab'
 
+import Car_Sale from './views/Car_Sale'
 
 
 const router = new VueRouter({
@@ -82,6 +84,11 @@ const router = new VueRouter({
           component: Update_Profile_Tab
         }
       ]
+    },
+    {
+      path: '/trade/sell',
+      name: 'trade_sell',
+      component: Car_Sale
     },
   ]
 });

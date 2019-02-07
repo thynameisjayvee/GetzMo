@@ -32,12 +32,12 @@
               <li class="nav-item">
                 <router-link class="nav-link" active-class="active" :to="{name: 'profile_message'}">Messages</router-link>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <router-link class="nav-link" active-class="active" :to="{name: 'profile_deal'}">Deals</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" active-class="active" :to="{name: 'profile_garage'}">My Garage</router-link>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <router-link class="nav-link" active-class="active" :to="{name: 'profile_update'}">Update Profile</router-link>
               </li>
