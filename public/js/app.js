@@ -2627,6 +2627,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2941,6 +2971,113 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -2977,8 +3114,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     $(".next").click(function () {
       if (animating) return false;
       animating = true;
-      current_fs = $(this).parent();
-      next_fs = $(this).parent().next(); //activate next step on progressbar using the index of next_fs
+      current_fs = $(this).closest("fieldset");
+      next_fs = $(this).closest("fieldset").next(); //activate next step on progressbar using the index of next_fs
 
       $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active"); //show the next fieldset
 
@@ -3016,8 +3153,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     $(".previous").click(function () {
       if (animating) return false;
       animating = true;
-      current_fs = $(this).parent();
-      previous_fs = $(this).parent().prev(); //de-activate current step on progressbar
+      current_fs = $(this).closest("fieldset");
+      previous_fs = $(this).closest("fieldset").prev(); //de-activate current step on progressbar
 
       $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active"); //show the previous fieldset
 
@@ -24185,6 +24322,25 @@ exports.push([module.i, "/* Add support for fixed layout table */\ntable.b-table
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.dropdown-right[data-v-6dde423b]{\n  left: auto;\n  right: 0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/App.vue?vue&type=style&index=0&lang=css&":
 /*!****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/App.vue?vue&type=style&index=0&lang=css& ***!
@@ -24216,7 +24372,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*basic reset*/\n/* * {\n    margin: 0;\n    padding: 0;\n} */\n\n/* html { */\n    /* height: 100%; */\n    /* background: #6441A5; fallback for old browsers */\n    /* background: -webkit-linear-gradient(to left, #6441A5, #2a0845); Chrome 10-25, Safari 5.1-6 */\n/* } */\n\n/* body {\n    font-family: montserrat, arial, verdana;\n    background: transparent;\n} */\n/*form styles*/\n#msform[data-v-166625de] {\n    text-align: center;\n    position: relative;\n    margin-top: 30px;\n}\n#msform fieldset[data-v-166625de] {\n    background: white;\n    border: 0 none;\n    border-radius: 0px;\n    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);\n    padding: 20px 30px;\n    box-sizing: border-box;\n    width: 80%;\n    margin: 0 10%;\n\n    /*stacking fieldsets above each other*/\n    position: relative;\n}\n\n/*Hide all except first fieldset*/\n#msform fieldset[data-v-166625de]:not(:first-of-type) {\n    display: none;\n}\n\n/*inputs*/\n#msform input[data-v-166625de], #msform textarea[data-v-166625de] {\n    padding: 15px;\n    border: 1px solid #ccc;\n    border-radius: 0px;\n    margin-bottom: 10px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: montserrat;\n    color: #2C3E50;\n    font-size: 13px;\n}\n#msform input[data-v-166625de]:focus, #msform textarea[data-v-166625de]:focus {\n    box-shadow: none !important;\n    border: 1px solid rgb(106, 228, 187);\n    outline-width: 0;\n    transition: All 0.5s ease-in;\n    -webkit-transition: All 0.5s ease-in;\n    -moz-transition: All 0.5s ease-in;\n    -o-transition: All 0.5s ease-in;\n}\n\n/*buttons*/\n#msform .action-button[data-v-166625de] {\n    width: 100px;\n    background: rgb(106, 228, 187);\n    font-weight: bold;\n    color: white;\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 10px 5px;\n    margin: 10px 5px;\n}\n#msform .action-button[data-v-166625de]:hover, #msform .action-button[data-v-166625de]:focus {\n    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(106, 228, 187);\n}\n#msform .action-button-previous[data-v-166625de] {\n    width: 100px;\n    background: #C5C5F1;\n    font-weight: bold;\n    color: white;\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 10px 5px;\n    margin: 10px 5px;\n}\n#msform .action-button-previous[data-v-166625de]:hover, #msform .action-button-previous[data-v-166625de]:focus {\n    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;\n}\n\n/*headings*/\n.fs-title[data-v-166625de] {\n    font-size: 18px;\n    text-transform: uppercase;\n    color: #2C3E50;\n    margin-bottom: 10px;\n    letter-spacing: 2px;\n    font-weight: bold;\n}\n.fs-subtitle[data-v-166625de] {\n    font-weight: normal;\n    font-size: 13px;\n    color: #666;\n    margin-bottom: 20px;\n}\n\n/*progressbar*/\n#progressbar[data-v-166625de] {\n    margin-bottom: 30px;\n    overflow: hidden;\n    /*CSS counters to number the steps*/\n    counter-reset: step;\n}\n#progressbar li[data-v-166625de] {\n    list-style-type: none;\n    color: white;\n    text-transform: uppercase;\n    font-size: 9px;\n    width: 33.33%;\n    float: left;\n    position: relative;\n    letter-spacing: 1px;\n}\n#progressbar li[data-v-166625de]:before {\n    content: counter(step);\n    counter-increment: step;\n    width: 24px;\n    height: 24px;\n    line-height: 26px;\n    display: block;\n    font-size: 12px;\n    color: #333;\n    background: white;\n    border-radius: 25px;\n    margin: 0 auto 10px auto;\n}\n\n/*progressbar connectors*/\n#progressbar li[data-v-166625de]:after {\n    content: '';\n    width: 100%;\n    height: 2px;\n    background: white;\n    position: absolute;\n    left: -50%;\n    top: 9px;\n    z-index: -1; /*put it behind the numbers*/\n}\n#progressbar li[data-v-166625de]:first-child:after {\n    /*connector not needed before the first step*/\n    content: none;\n}\n\n/*marking active/completed steps green*/\n/*The number of the step and the connector before it = green*/\n#progressbar li.active[data-v-166625de]:before, #progressbar li.active[data-v-166625de]:after {\n    background: rgb(106, 228, 187);\n    color: white;\n}\n\n\n/* Not relevant to this form */\n.dme_link[data-v-166625de] {\n    margin-top: 30px;\n    text-align: center;\n}\n.dme_link a[data-v-166625de] {\n    background: #FFF;\n    font-weight: bold;\n    color: rgb(106, 228, 187);\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 5px 25px;\n    font-size: 12px;\n}\n.dme_link a[data-v-166625de]:hover, .dme_link a[data-v-166625de]:focus {\n    background: #C5C5F1;\n    text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*basic reset*/\n/* * {\n    margin: 0;\n    padding: 0;\n} */\n\n/* html { */\n    /* height: 100%; */\n    /* background: #6441A5; fallback for old browsers */\n    /* background: -webkit-linear-gradient(to left, #6441A5, #2a0845); Chrome 10-25, Safari 5.1-6 */\n/* } */\n\n/* body {\n    font-family: montserrat, arial, verdana;\n    background: transparent;\n} */\n/*form styles*/\n.custom_display[data-v-166625de]{\n    display: inline-flex;\n    width: 100%;\n}\n.radio_width[data-v-166625de]{\n    /* position: absolute; */\n    /* margin-top: 0.3rem; */\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    width: auto !important;\n}\n#msform[data-v-166625de] {\n    /* text-align: center; */\n    position: relative;\n    margin-top: 30px;\n}\n#msform fieldset[data-v-166625de] {\n    background: white;\n    border: 0 none;\n    border-radius: 0px;\n    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);\n    padding: 20px 30px;\n    box-sizing: border-box;\n    width: 80%;\n    margin: 0 10%;\n\n    /*stacking fieldsets above each other*/\n    position: relative;\n}\n\n/*Hide all except first fieldset*/\n#msform fieldset[data-v-166625de]:not(:first-of-type) {\n    display: none;\n}\n\n/*inputs*/\n#msform input[data-v-166625de], #msform textarea[data-v-166625de] {\n    padding: 15px;\n    border: 1px solid #ccc;\n    border-radius: 0px;\n    margin-bottom: 10px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: montserrat;\n    color: #2C3E50;\n    font-size: 13px;\n}\n#msform input[data-v-166625de]:focus, #msform textarea[data-v-166625de]:focus {\n    box-shadow: none !important;\n    border: 1px solid rgb(106, 228, 187);\n    outline-width: 0;\n    transition: All 0.5s ease-in;\n    -webkit-transition: All 0.5s ease-in;\n    -moz-transition: All 0.5s ease-in;\n    -o-transition: All 0.5s ease-in;\n}\n\n/*buttons*/\n#msform .action-button[data-v-166625de] {\n    width: 100px;\n    background: rgb(106, 228, 187);\n    font-weight: bold;\n    color: white;\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 10px 5px;\n    margin: 10px 5px;\n}\n#msform .action-button[data-v-166625de]:hover, #msform .action-button[data-v-166625de]:focus {\n    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(106, 228, 187);\n}\n#msform .action-button-previous[data-v-166625de] {\n    width: 100px;\n    background: #C5C5F1;\n    font-weight: bold;\n    color: white;\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 10px 5px;\n    margin: 10px 5px;\n}\n#msform .action-button-previous[data-v-166625de]:hover, #msform .action-button-previous[data-v-166625de]:focus {\n    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;\n}\n\n/*headings*/\n.fs-title[data-v-166625de] {\n    text-align: center;\n    font-size: 18px;\n    text-transform: uppercase;\n    color: #2C3E50;\n    margin-bottom: 10px;\n    letter-spacing: 2px;\n    font-weight: bold;\n}\n.fs-subtitle[data-v-166625de] {\n    text-align: center;\n    font-weight: normal;\n    font-size: 13px;\n    color: #666;\n    margin-bottom: 20px;\n}\n\n/*progressbar*/\n#progressbar[data-v-166625de] {\n    text-align: center;\n    margin-bottom: 30px;\n    overflow: hidden;\n    /*CSS counters to number the steps*/\n    counter-reset: step;\n}\n#progressbar li[data-v-166625de] {\n    list-style-type: none;\n    color: white;\n    text-transform: uppercase;\n    font-size: 9px;\n    width: 33.33%;\n    float: left;\n    position: relative;\n    letter-spacing: 1px;\n}\n#progressbar li[data-v-166625de]:before {\n    content: counter(step);\n    counter-increment: step;\n    width: 24px;\n    height: 24px;\n    line-height: 26px;\n    display: block;\n    font-size: 12px;\n    color: #333;\n    background: white;\n    border-radius: 25px;\n    margin: 0 auto 10px auto;\n}\n\n/*progressbar connectors*/\n#progressbar li[data-v-166625de]:after {\n    content: '';\n    width: 100%;\n    height: 2px;\n    background: white;\n    position: absolute;\n    left: -50%;\n    top: 9px;\n    z-index: -1; /*put it behind the numbers*/\n}\n#progressbar li[data-v-166625de]:first-child:after {\n    /*connector not needed before the first step*/\n    content: none;\n}\n\n/*marking active/completed steps green*/\n/*The number of the step and the connector before it = green*/\n#progressbar li.active[data-v-166625de]:before, #progressbar li.active[data-v-166625de]:after {\n    background: rgb(106, 228, 187);\n    color: white;\n}\n\n\n/* Not relevant to this form */\n.dme_link[data-v-166625de] {\n    margin-top: 30px;\n    text-align: center;\n}\n.dme_link a[data-v-166625de] {\n    background: #FFF;\n    font-weight: bold;\n    color: rgb(106, 228, 187);\n    border: 0 none;\n    border-radius: 25px;\n    cursor: pointer;\n    padding: 5px 25px;\n    font-size: 12px;\n}\n.dme_link a[data-v-166625de]:hover, .dme_link a[data-v-166625de]:focus {\n    background: #C5C5F1;\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -57508,6 +57664,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/App.vue?vue&type=style&index=0&lang=css&":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/App.vue?vue&type=style&index=0&lang=css& ***!
@@ -58577,11 +58763,8 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-navbar",
-    {
-      staticClass: "navbar navbar-expand-md navbar-dark bg-dark",
-      attrs: { toggleable: "md" }
-    },
+    "nav",
+    { staticClass: "navbar navbar-expand-md navbar-dark bg-dark" },
     [
       _c(
         "router-link",
@@ -58592,92 +58775,129 @@ var render = function() {
         [_vm._v("GetzMo")]
       ),
       _vm._v(" "),
-      _c("b-navbar-toggle", { attrs: { target: "nav_collapse" } }),
+      _vm._m(0),
       _vm._v(" "),
       _c(
-        "b-collapse",
-        { attrs: { "is-nav": "", id: "nav_collapse" } },
+        "div",
+        {
+          staticClass: "collapse navbar-collapse",
+          attrs: { id: "navbarText" }
+        },
         [
-          _c(
-            "b-navbar-nav",
-            { staticClass: "ml-auto" },
-            [
+          _c("ul", { staticClass: "navbar-nav ml-auto" }, [
+            _c(
+              "li",
+              { staticClass: "nav-item" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "nav-link",
+                    attrs: { to: { name: "top", params: {} } }
+                  },
+                  [_vm._v("Home")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              { staticClass: "nav-item" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "nav-link",
+                    attrs: { to: { name: "profile", params: {} } }
+                  },
+                  [_vm._v("Profile")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item dropdown" }, [
               _c(
-                "router-link",
+                "a",
                 {
-                  staticClass: "nav-link",
-                  attrs: { to: { name: "top", params: {} } }
+                  staticClass: "nav-link dropdown-toggle",
+                  attrs: {
+                    href: "#",
+                    id: "navbarDropdownMenuLink",
+                    role: "button",
+                    "data-toggle": "dropdown",
+                    "aria-haspopup": "true",
+                    "aria-expanded": "false"
+                  }
                 },
-                [_vm._v("Home")]
+                [_vm._v("\n        Trade\n        ")]
               ),
               _vm._v(" "),
               _c(
-                "router-link",
+                "div",
                 {
-                  staticClass: "nav-link",
-                  attrs: { to: { name: "profile", params: {} } }
+                  staticClass: "dropdown-menu dropdown-right",
+                  attrs: { "aria-labelledby": "navbarDropdownMenuLink" }
                 },
-                [_vm._v("Profile")]
-              ),
-              _vm._v(" "),
-              _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                _vm._v("About Us")
-              ]),
-              _vm._v(" "),
-              _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                _vm._v("FAQs")
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-nav-item-dropdown",
-                { attrs: { right: "" } },
                 [
-                  _c("template", { slot: "button-content" }, [
-                    _vm._v("\n          Trade\n        ")
-                  ]),
-                  _vm._v(" "),
                   _c(
-                    "b-dropdown-item",
-                    [
-                      _c(
-                        "router-link",
-                        { attrs: { to: { name: "trade_sell", params: {} } } },
-                        [_vm._v("Sell")]
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                    _vm._v("Buy")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                    _vm._v("Swap")
-                  ])
+                    "router-link",
+                    {
+                      staticClass: "dropdown-item",
+                      attrs: { to: { name: "trade_sell", params: {} } }
+                    },
+                    [_vm._v("Sell")]
+                  )
                 ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "router-link",
-                {
-                  staticClass: "nav-link",
-                  attrs: { to: { name: "login", params: {} } }
-                },
-                [_vm._v("Login")]
+                1
               )
-            ],
-            1
-          )
-        ],
-        1
+            ]),
+            _vm._v(" "),
+            _c(
+              "li",
+              { staticClass: "nav-item" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "nav-link",
+                    attrs: { to: { name: "login", params: {} } }
+                  },
+                  [_vm._v("Login")]
+                )
+              ],
+              1
+            )
+          ])
+        ]
       )
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggler",
+        attrs: {
+          type: "button",
+          "data-toggle": "collapse",
+          "data-target": "#navbarText",
+          "aria-controls": "navbarText",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation"
+        }
+      },
+      [_c("span", { staticClass: "navbar-toggler-icon" })]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -58789,7 +59009,7 @@ var staticRenderFns = [
             _c("form", { attrs: { id: "msform" } }, [
               _c("ul", { attrs: { id: "progressbar" } }, [
                 _c("li", { staticClass: "active" }, [
-                  _vm._v("Personal Details")
+                  _vm._v("General Information")
                 ]),
                 _vm._v(" "),
                 _c("li", [_vm._v("Social Profiles")]),
@@ -58799,81 +59019,224 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("fieldset", [
                 _c("h2", { staticClass: "fs-title" }, [
-                  _vm._v("Personal Details")
+                  _vm._v("General Information")
                 ]),
                 _vm._v(" "),
-                _c("h3", { staticClass: "fs-subtitle" }, [
-                  _vm._v("Tell us something more about you")
+                _c("h3", { staticClass: "fs-subtitle" }, [_vm._v("STEP 1")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-6" }, [
+                    _c("label", { attrs: { for: "" } }, [_vm._v("Brand")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "brand_list",
+                        placeholder: "Any Brand"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "brand_list" } }, [
+                      _c("option", [_vm._v("BMW")])
+                    ]),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "" } }, [_vm._v("Model")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "model_list",
+                        placeholder: "Any Model"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "model_list" } }, [
+                      _c("option", [_vm._v("MR")])
+                    ]),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "" } }, [
+                      _vm._v("Production Year")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "year_list",
+                        placeholder: "Any Year"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "year_list" } }, [
+                      _c("option", [_vm._v("2003")])
+                    ]),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "" } }, [_vm._v("Color")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "color_list",
+                        placeholder: "Any Color"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "color_list" } }, [
+                      _c("option", [_vm._v("Red")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-6" }, [
+                    _c("label", { attrs: { for: "" } }, [_vm._v("Mileage")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", placeholder: "Any Mileage" }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "" } }, [
+                      _vm._v("Selling Price")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", placeholder: "Any Price" }
+                    })
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    type: "text",
-                    name: "fname",
-                    placeholder: "First Name"
-                  }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    type: "text",
-                    name: "lname",
-                    placeholder: "Last Name"
-                  }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: { type: "text", name: "phone", placeholder: "Phone" }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "next action-button",
-                  attrs: { type: "button", name: "next", value: "Next" }
-                })
+                _c("div", { attrs: { align: "center" } }, [
+                  _c("input", {
+                    staticClass: "next action-button",
+                    attrs: { type: "button", name: "next", value: "Next" }
+                  })
+                ])
               ]),
               _vm._v(" "),
               _c("fieldset", [
-                _c("h2", { staticClass: "fs-title" }, [
-                  _vm._v("Social Profiles")
+                _c("h2", { staticClass: "fs-title" }, [_vm._v("Car Details")]),
+                _vm._v(" "),
+                _c("h3", { staticClass: "fs-subtitle" }, [_vm._v("STEP 2")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-4" }, [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "transmission_list",
+                        placeholder: "Transmission"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "transmission_list" } }, [
+                      _c("option", [_vm._v("Automatic")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Manual")])
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "fuel_list",
+                        placeholder: "Fuel Type"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "fuel_list" } }, [
+                      _c("option", [_vm._v("Diesel")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Gasoline")])
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        list: "condition_list",
+                        placeholder: "Condition"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("datalist", { attrs: { id: "condition_list" } }, [
+                      _c("option", [_vm._v("Brand New")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("2nd Hand")])
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", placeholder: "Engine (L)" }
+                    }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", placeholder: "Horsepower (Hp)" }
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "py-2",
+                        staticStyle: { border: "1px solid #dadad4" },
+                        attrs: { align: "center" }
+                      },
+                      [
+                        _c("h4", [_vm._v("Window Tint")]),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "opt_1" } }, [
+                          _vm._v("Less than 30%")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "radio_width",
+                          attrs: {
+                            type: "radio",
+                            name: "window_tint_opts",
+                            id: "opt_1"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "opt_2" } }, [
+                          _vm._v("More than 30%")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "radio_width",
+                          attrs: {
+                            type: "radio",
+                            name: "window_tint_opts",
+                            id: "opt_2"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-4" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-4" })
                 ]),
                 _vm._v(" "),
-                _c("h3", { staticClass: "fs-subtitle" }, [
-                  _vm._v("Your presence on the social network")
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    type: "text",
-                    name: "twitter",
-                    placeholder: "Twitter"
-                  }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    type: "text",
-                    name: "facebook",
-                    placeholder: "Facebook"
-                  }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    type: "text",
-                    name: "gplus",
-                    placeholder: "Google Plus"
-                  }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "previous action-button-previous",
-                  attrs: { type: "button", name: "previous", value: "Previous" }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "next action-button",
-                  attrs: { type: "button", name: "next", value: "Next" }
-                })
+                _c("div", { attrs: { align: "center" } }, [
+                  _c("input", {
+                    staticClass: "previous action-button-previous",
+                    attrs: {
+                      type: "button",
+                      name: "previous",
+                      value: "Previous"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "next action-button",
+                    attrs: { type: "button", name: "next", value: "Next" }
+                  })
+                ])
               ]),
               _vm._v(" "),
               _c("fieldset", [
@@ -58905,30 +59268,21 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("input", {
-                  staticClass: "previous action-button-previous",
-                  attrs: { type: "button", name: "previous", value: "Previous" }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "submit action-button",
-                  attrs: { type: "submit", name: "submit", value: "Submit" }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "dme_link" }, [
-              _c("p", [
-                _c(
-                  "a",
-                  {
+                _c("div", { attrs: { align: "center" } }, [
+                  _c("input", {
+                    staticClass: "previous action-button-previous",
                     attrs: {
-                      href: "http://designify.me/code-snippets-js/",
-                      target: "_blank"
+                      type: "button",
+                      name: "previous",
+                      value: "Previous"
                     }
-                  },
-                  [_vm._v("More Code Snippets")]
-                )
+                  }),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "submit action-button",
+                    attrs: { type: "submit", name: "submit", value: "Submit" }
+                  })
+                ])
               ])
             ])
           ])
@@ -74938,7 +75292,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar_vue_vue_type_template_id_6dde423b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.vue?vue&type=template&id=6dde423b&scoped=true& */ "./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&scoped=true&");
 /* harmony import */ var _Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.vue?vue&type=script&lang=js& */ "./resources/js/components/Navbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& */ "./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -74946,7 +75302,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Navbar_vue_vue_type_template_id_6dde423b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Navbar_vue_vue_type_template_id_6dde423b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -74975,6 +75331,22 @@ component.options.__file = "resources/js/components/Navbar.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Navbar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=style&index=0&id=6dde423b&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 

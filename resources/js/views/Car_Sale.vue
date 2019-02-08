@@ -9,27 +9,116 @@
                     <form id="msform">
                         <!-- progressbar -->
                         <ul id="progressbar">
-                            <li class="active">Personal Details</li>
+                            <li class="active">General Information</li>
                             <li>Social Profiles</li>
                             <li>Account Setup</li>
                         </ul>
                         <!-- fieldsets -->
                         <fieldset>
-                            <h2 class="fs-title">Personal Details</h2>
-                            <h3 class="fs-subtitle">Tell us something more about you</h3>
-                            <input type="text" name="fname" placeholder="First Name"/>
+                            <h2 class="fs-title">General Information</h2>
+                            <h3 class="fs-subtitle">STEP 1</h3>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="">Brand</label>
+                                    <input type="text" class="form-control" list="brand_list" placeholder="Any Brand">
+                                    <datalist id="brand_list">
+                                        <option>BMW</option>
+                                    </datalist>
+                                    <label for="">Model</label>
+                                    <input type="text" class="form-control" list="model_list" placeholder="Any Model">
+                                    <datalist id="model_list">
+                                        <option>MR</option>
+                                    </datalist>
+                                    <label for="">Production Year</label>
+                                    <input type="text" class="form-control" list="year_list" placeholder="Any Year">
+                                    <datalist id="year_list">
+                                        <option>2003</option>
+                                    </datalist>
+                                    <label for="">Color</label>
+                                    <input type="text" class="form-control" list="color_list" placeholder="Any Color">
+                                    <datalist id="color_list">
+                                        <option>Red</option>
+                                    </datalist>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="">Mileage</label>
+                                    <input type="text" class="form-control" placeholder="Any Mileage">
+                                    <label for="">Selling Price</label>
+                                    <input type="text" class="form-control" placeholder="Any Price">
+                                </div>
+                            </div>
+                            <!-- <input type="text" name="fname" placeholder="First Name"/>
                             <input type="text" name="lname" placeholder="Last Name"/>
-                            <input type="text" name="phone" placeholder="Phone"/>
-                            <input type="button" name="next" class="next action-button" value="Next"/>
+                            <input type="text" name="phone" placeholder="Phone"/> -->
+                            <div align="center">
+                                <input type="button" name="next" class="next action-button" value="Next"/>
+                            </div>
                         </fieldset>
                         <fieldset>
-                            <h2 class="fs-title">Social Profiles</h2>
-                            <h3 class="fs-subtitle">Your presence on the social network</h3>
-                            <input type="text" name="twitter" placeholder="Twitter"/>
-                            <input type="text" name="facebook" placeholder="Facebook"/>
-                            <input type="text" name="gplus" placeholder="Google Plus"/>
-                            <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                            <input type="button" name="next" class="next action-button" value="Next"/>
+                            <h2 class="fs-title">Car Details</h2>
+                            <h3 class="fs-subtitle">STEP 2</h3>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <input type="text" class="form-control" list="transmission_list" placeholder="Transmission">
+                                    <datalist id="transmission_list">
+                                        <option>Automatic</option>
+                                        <option>Manual</option>
+                                    </datalist>
+                                    <input type="text" class="form-control" list="fuel_list" placeholder="Fuel Type">
+                                    <datalist id="fuel_list">
+                                        <option>Diesel</option>
+                                        <option>Gasoline</option>
+                                    </datalist>
+                                    <input type="text" class="form-control" list="condition_list" placeholder="Condition">
+                                    <datalist id="condition_list">
+                                        <option>Brand New</option>
+                                        <option>2nd Hand</option>
+                                    </datalist>
+                                    <input type="text" class="form-control" placeholder="Engine (L)">
+                                    <input type="text" class="form-control" placeholder="Horsepower (Hp)">
+                                    <!-- <div class="input-group">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="window_tint_opts" id="opt_1">Less than 30%
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="window_tint_opts" id="opt_2">More than 30%
+                                        </label>
+                                    </div> -->
+                                    <div align="center" class="py-2" style="border: 1px solid #dadad4;">
+                                        <h4>Window Tint</h4>
+                                        <label for="opt_1">Less than 30%</label>
+                                        <input class="radio_width" type="radio" name="window_tint_opts" id="opt_1">
+                                        <label for="opt_2">More than 30%</label>
+                                        <input class="radio_width" type="radio" name="window_tint_opts" id="opt_2">
+                                        <!-- <label>
+                                            <input class="radio_width" type="radio" name="window_tint_opts" id="opt_1">Less than 30%
+                                        </label> -->
+                                        <!-- <label>
+                                            <input class="radio_width" type="radio" name="window_tint_opts" id="opt_2">More than 30%
+                                        </label> -->
+                                    </div>
+                                    <!-- <div class="custom_display">
+                                        <div class="form-check">
+                                            <input class="form-check-input radio_width" type="radio" name="window_tint_opts" id="opt_1" value="">
+                                            <label class="form-check-label mr-2" for="opt_1">Less than 30%</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input radio_width" type="radio" name="window_tint_opts" id="opt_2" value="">
+                                            <label class="form-check-label" for="opt_2">More than 30%</label>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="col-lg-4">
+
+                                </div>
+                                <div class="col-lg-4">
+
+                                </div>
+                            </div>
+                            <div align="center">
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                <input type="button" name="next" class="next action-button" value="Next"/>
+                            </div>
                         </fieldset>
                         <fieldset>
                             <h2 class="fs-title">Create your account</h2>
@@ -37,14 +126,16 @@
                             <input type="text" name="email" placeholder="Email"/>
                             <input type="password" name="pass" placeholder="Password"/>
                             <input type="password" name="cpass" placeholder="Confirm Password"/>
-                            <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                            <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+                            <div align="center">
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+                            </div>
                         </fieldset>
                     </form>
                     <!-- link to designify.me code snippets -->
-                    <div class="dme_link">
+                    <!-- <div class="dme_link">
                         <p><a href="http://designify.me/code-snippets-js/" target="_blank">More Code Snippets</a></p>
-                    </div>
+                    </div> -->
                     <!-- /.link to designify.me code snippets -->
                 </div>
             </div>
@@ -70,8 +161,21 @@
     background: transparent;
 } */
 /*form styles*/
+.custom_display{
+    display: inline-flex;
+    width: 100%;
+}
+
+.radio_width{
+    /* position: absolute; */
+    /* margin-top: 0.3rem; */
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: auto !important;
+}
+
 #msform {
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     margin-top: 30px;
 }
@@ -155,6 +259,7 @@
 
 /*headings*/
 .fs-title {
+    text-align: center;
     font-size: 18px;
     text-transform: uppercase;
     color: #2C3E50;
@@ -164,6 +269,7 @@
 }
 
 .fs-subtitle {
+    text-align: center;
     font-weight: normal;
     font-size: 13px;
     color: #666;
@@ -172,6 +278,7 @@
 
 /*progressbar*/
 #progressbar {
+    text-align: center;
     margin-bottom: 30px;
     overflow: hidden;
     /*CSS counters to number the steps*/
@@ -270,8 +377,8 @@ export default {
             if(animating) return false;
             animating = true;
             
-            current_fs = $(this).parent();
-            next_fs = $(this).parent().next();
+            current_fs = $(this).closest("fieldset");
+            next_fs = $(this).closest("fieldset").next();
             
             //activate next step on progressbar using the index of next_fs
             $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
@@ -308,8 +415,8 @@ export default {
             if(animating) return false;
             animating = true;
             
-            current_fs = $(this).parent();
-            previous_fs = $(this).parent().prev();
+            current_fs = $(this).closest("fieldset");
+            previous_fs = $(this).closest("fieldset").prev();
             
             //de-activate current step on progressbar
             $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
